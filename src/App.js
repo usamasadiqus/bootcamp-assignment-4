@@ -11,7 +11,7 @@ function App() {
     <div className={`App ${isDay ? 'dayLight' : 'nightLight'}`}>
       <Message counter={count} />
 
-      <button onClick={() => setCount(++count)}>Update counter</button>
+      <button onClick={() => setCount(++count)}>Update Counter</button>
 
       <button onClick={()=>setDay(!isDay)}>Update Day</button>
     </div>
